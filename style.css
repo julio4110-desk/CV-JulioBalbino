@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C1C1C
+}
+
+main {
+    width: 80%;
+    height: max-content;
+    margin: 0 auto;
+    padding: 5rem 5rem;
+    border: 1px solid white;
+    color: white;
+    /* position:relative */
+}
+
+main div {
+    margin: 0rem auto;
+    text-align: justify;
+    overflow: hidden
+}
+
+html {
+    font-family: "Comic Sans MS", "Comic Sans", "Roboto", sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-color: #1C1C1C;
+}
+
+button a {
+    text-decoration: none;
+    color: white
+}
+
+button a:hover {
+    color: white
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-size: 4rem;
+    padding: 2rem 0rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+div h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+div h3 {
+    font-size: 2rem;
+}
+
+div span {
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: dimgray;
+}
+
+p {
+    margin: 1rem 0 2rem;
+    color: white;
+    text-align: justify;
+    font-size: 2.2rem;
+    word-spacing: 0.2rem;
+    line-height: 1.5;
+}
+
+nav button {
+    font-family: inherit;
+    background: none;
+    color: #fff;
+    padding: 1.7rem 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    transition: background linear 0.2s;
+}
+
+nav button:hover {
+    background: gray;
+    border-radius: 2px;
+}
+
+ul span {
+    font-size: 2rem
+}
+
+ul li {
+    width: max-content;
+    font-size: 2rem;
+    list-style: none;
+    border-bottom: 2px solid white;
+    /* display:inline; */
+    margin-right: 0.5rem
+}
+
+table {
+    font-size: 2rem;
+    width: 70%;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid white;
+    margin-bottom: 2rem
+}
+
+a img {
+    width: 60px;
+    height: 60px;
+}
+
+.sessao {
+    width: 100%;
+    background: #1C1C1C;
+}
+
+.nome {
+    font-size: 4rem;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.modal_layer {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.no_display {
+    display: none
+}
+
+.modal {
+    width: 50rem;
+    height: 20rem;
+    background: white;
+}
+
+.modal p {
+    font-size: 2rem;
+    color: black
+}
+
+#contatobutton {
+    position: absolute;
+    right: 0;
+}
+
+#navbar {
+    min-width: 80%;
+    width: 100%;
+    background: black;
+    padding: 1.5rem 0;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    transition: top 0.5s;
+}
+
+#navbarcontato {
+    min-width: 80%;
+    width: 100%;
+    background: black;
+    padding: 1.5rem 2rem;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    transition: top 0.5s;
+}
+
+@media (min-width:320px) {
+    html {
+        font-size: 46%;
+        box-sizing: border-box
+    }
+    .nome {
+        font-size: 2.5rem;
+    }
+    div h1 {
+        font-size: 2.2rem;
+    }
+    main {
+        width: 90%;
+        padding: 2rem 2rem;
+    }
+    table {
+        width: 100%
+    }
+}
+
+@media (min-width:768px) {
+    html {
+        font-size: 55%;
+        box-sizing: border-box
+    }
+    div h1 {
+        font-size: 2rem;
+    }
+    .nome {
+        font-size: 2.8rem;
+    }
+}
+
+@media (min-width:1024px) {
+    html {
+        font-size: 55%;
+        box-sizing: border-box;
+    }
+    div h1 {
+        font-size: 2.5rem;
+    }
+    main {
+        width: 90%;
+        padding: 2rem 2rem;
+    }
+    .nome {
+        font-size: 2.8rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    html {
+        font-size: 62.5%;
+    }
+    div h1 {
+        font-size: 2.5rem;
+    }
+    main {
+        width: 80%;
+        padding: 5rem 5rem;
+    }
+    .nome {
+        font-size: 4rem;
+    }
+    table {
+        width: 70rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+/* Large devices (desktops, 992px and up)
+@media (max-width: 1024px) { 
+    
+} */
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+/* @media (max-width: 1200px) {
+
+ } */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+/* @media (max-width: 1920px) { 
+    
+}
